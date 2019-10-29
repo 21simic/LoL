@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LoL Client</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+<body>
+	<!-- RAZDVAJANJE FORME OD SLIKE -->
+	<div class="split left">
+		<div class="centered">
+		    <div class="logo">
+			   <img src="assets/img/logo.png" alt="logo" width="60px" height="60px">
+		    </div>
+		    <div class="region">
+		    	<!--<select>
+		    		<option>EUNE EN</option>
+		    		<option>North america</option>
+		    	</select>-->
+
+		    	<button onclick="myFunction()" class="dropbtn"><strong>EUNE (EN)</strong></button>
+		    	<div id="myDropdown" class="dropdown-content">
+		    		<a href="#">North America</a>
+		    		<a href="#">Europe West</a>
+		    		<a href="#">Oceania</a>
+		    		<a id="info" href="https://www.instagram.com/21simic">Made by $imic</a>
+		    	</div>
+		    	<i class="fa fa-globe"></i>
+		    </div>
+		</div>
+		<!--========FORMA========-->
+		<form>
+			<h2 class="formtext">SIGN IN</h2>
+			<div class="forma">
+				<div class="razmak">
+				    <input type="text" name="ime" placeholder="USERNAME">
+			    </div>
+				<input type="text" name="sifra" placeholder="PASSWORD">
+				
+				<div class="cekbox">
+				    <input type="checkbox" class="signupcheck">
+				    <!--<h3>Stay signed in</h3>-->
+				</div> 
+			</div>
+		</form>
+		<h3 class="h3tekst">Stay signed in</h3>
+		<div class="login">
+		    <i class="fa fa-arrow-right" style="font-size: 30px;"></i>
+		</div>
+		<div class="credits">
+			<p class="creditstext">Create account</p>
+			<p class="creditstext">Can't sign up?</p>
+		</div>
+	</div>
+
+	<div class="split right">
+		<div class="centered" style="background-image: url(assets/img/background.jpg);">
+			<!--<img class="slika" src="assets/img/background.jpg" alt="pozadina">-->
+		</div>
+	</div>
+
+</body>
+</html>
